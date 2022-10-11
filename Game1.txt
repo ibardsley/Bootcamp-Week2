@@ -1,0 +1,19 @@
+var points = 0;
+var pointsReset = false; 
+    
+    //write your code here
+    for (let Turns = 0; Turns <= 100 && points <= 290; Turns++){
+        if (pointsReset = true){
+            points == 25;
+        }
+        if(Turns % 2 === 0){
+            console.log(("Turns:"), (Turns), ("Score:"), (points = points + 5));
+        } else {
+            console.log(("Turns:"), (Turns), ("Score:"), (points = points + 3));
+            console.log("in else");
+        } {
+            if (points == 125){
+                pointsReset = true;
+        }
+    }
+}
